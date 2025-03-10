@@ -1,0 +1,21 @@
+class vehical{ 
+    void start(){ 
+        System.out.println("Start"); 
+    } 
+    void stop(){ 
+        System.out.println("Stop"); 
+    } 
+} 
+class car extends vehical{ 
+    void drive(){ 
+        System.out.println("Start driving"); 
+    } 
+} 
+public class j9{ 
+    public static void main(String[] args){ 
+    car c = new car(); 
+        c.stop(); 
+        c.start(); 
+        c.drive(); 
+    } 
+} 
