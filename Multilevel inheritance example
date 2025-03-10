@@ -1,0 +1,24 @@
+import java.util.Scanner; 
+class animal{ 
+void bark(){ 
+System.out.println("dogs bark "); 
+} 
+} 
+class mammal extends animal{ 
+void breathe(){ 
+System.out.println("mammals breathe"); 
+} 
+} 
+class dog extends mammal{ 
+void eat(){ 
+System.out.println("dog eats bone"); 
+} 
+} 
+public class j5{ 
+public static void main(String[] args){ 
+dog d = new dog(); 
+d.eat(); 
+d.breathe(); 
+d.bark(); 
+} 
+}
